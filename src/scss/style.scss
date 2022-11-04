@@ -1,4 +1,9 @@
-h2{
-    color: red;
-    text-align: center;
-}
+
+//base components
+@import '/src/base/reset';
+@import '/src/base/typography';
+
+//components
+@import '/src/components/header';
+
+

@@ -1,0 +1,37 @@
+.subheader{
+ 
+    background-color:#272343;
+    padding: 14px 0;
+
+    &-left{
+
+        p{
+            color: white;
+            margin: 0;
+            font-size: 13px;
+        }
+    }
+
+    &-right{
+        select{
+            background-color: transparent;
+            color: white;
+            border: unset;
+            &:focus{
+                border:unset;
+                outline: unset;
+            }
+            option{
+                color:black;
+
+            }
+        }
+        select,a{
+            padding: 0px 12px;
+            color: white;
+            font-size: 13px;
+
+        }
+    }
+}
+
